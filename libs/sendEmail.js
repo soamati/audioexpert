@@ -37,7 +37,6 @@ async function sendEmail(email, results) {
       <br />
       <a href="https://audioexpert.herokuapp.com/">
         <button
-          to="facebook.com"
           style="
             font-family: 'Secular One';
             border-radius: 20px;

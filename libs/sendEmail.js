@@ -5,7 +5,7 @@ async function sendEmail(email, results) {
     service: "gmail",
     auth: {
       user: process.env.USER,
-      pass: proccess.env.PASS,
+      pass: process.env.PASS,
     },
     name: "AudioExpert",
   };

@@ -31,7 +31,10 @@ const Footer = () => {
       </FooterRow>
       <FooterRow>
         <SourceCode>
-          <GitIcon href={"https://www.youtube.com/"} target="_blank">
+          <GitIcon
+            href={"https://github.com/soamati/audioexpert"}
+            target="_blank"
+          >
             <GoMarkGithub />
           </GitIcon>
           <FooterText white>Código Fuente</FooterText>

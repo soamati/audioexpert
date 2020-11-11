@@ -40,7 +40,10 @@ export const Form = styled.form`
   row-gap: 10px;
 
   @media screen and (max-width: 960px) {
-    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
   }
 `;
 
@@ -61,7 +64,10 @@ export const Results = styled.div`
   row-gap: 10px;
 
   @media screen and (max-width: 960px) {
-    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
   }
 `;
 

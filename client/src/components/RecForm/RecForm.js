@@ -121,7 +121,7 @@ const RecForm = () => {
                 <Select
                   id="use-select"
                   name="USO"
-                  label="El uso principal que le darás al sistema"
+                  label="Uso principal"
                   control={control}
                   error={!!errors.USO}
                   helpertext={errors?.USO?.message}
@@ -135,7 +135,7 @@ const RecForm = () => {
                 <Select
                   id="volume-select"
                   name="VOLUMEN"
-                  label="¿Qué tan importante es el volumen?"
+                  label="Importancia del volumen"
                   control={control}
                   error={!!errors.VOLUMEN}
                 >
@@ -148,7 +148,7 @@ const RecForm = () => {
                 <Select
                   id="movility-select"
                   name="MOVILIDAD"
-                  label="¿Qué tan importante es la movilidad?"
+                  label="Importancia de la movilidad"
                   control={control}
                   error={!!errors.MOVILIDAD}
                 >
@@ -161,7 +161,7 @@ const RecForm = () => {
                 <Select
                   id="output-select"
                   name="SALIDA_MAS_USADA"
-                  label="¿Qué periférico usás más?"
+                  label="Salida más usada"
                   control={control}
                   error={!!errors.SALIDA_MAS_USADA}
                 >
@@ -294,7 +294,7 @@ const RecForm = () => {
       )}
       {emailSent && (
         <Snackbar
-          message={"Enviamos la recomendación a su email"}
+          message={"Enviamos la recomendación a tu email"}
           severity="success"
           open={openSnackbar}
           setOpen={setOpenSnackbar}
